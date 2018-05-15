@@ -1,0 +1,28 @@
+<div>
+    <form>
+        
+        <span>Prefix</span>
+        <select>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+        <div style="padding-bottom: 5px; padding-top: 5px; ">
+            <input style="    height: 27px;" type="text" name="first_name" placeholder="Firstname" [(ngModel)]="firstname" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px;">
+                <input style="    height: 27px;"  type="text" name="last_name" placeholder="Lastname" [(ngModel)]="lastname" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px;">
+            <input style="    height: 27px;"  type="text" name="email" placeholder="email" [(ngModel)]="email" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px;">
+            <input style="    height: 27px;"  type="text" name="username" placeholder="Username" [(ngModel)]="username" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px;">
+                <input style="    height: 27px;"  type="password" name="password" placeholder="Password" [(ngModel)]="password" />
+        </div>
+        <div style="padding-bottom: 5px; padding-top: 5px; ">
+                            <button style="border-radius: 5px;" (click)="onSubmit()">Register</button>
+        </div>
+    </form>
+</div>
